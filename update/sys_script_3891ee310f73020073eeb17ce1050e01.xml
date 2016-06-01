@@ -28,7 +28,8 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[new global.StateFlow().processFlow(current, 'f491ee310f73020073eeb17ce1050e01', 'automatic');]]></script>
+        <script><![CDATA[//Added a comment.  Wow!
+new global.StateFlow().processFlow(current, 'f491ee310f73020073eeb17ce1050e01', 'automatic');]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>a09335</sys_created_by>
         <sys_created_on>2015-11-19 01:39:59</sys_created_on>
@@ -36,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3891ee310f73020073eeb17ce1050e01</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Accept</sys_name>
         <sys_overrides/>
         <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
@@ -45,7 +46,7 @@
         <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
         <sys_update_name>sys_script_3891ee310f73020073eeb17ce1050e01</sys_update_name>
         <sys_updated_by>a09335</sys_updated_by>
-        <sys_updated_on>2015-11-19 01:40:00</sys_updated_on>
+        <sys_updated_on>2016-06-01 20:13:50</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
