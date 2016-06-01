@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_script_access">
+    <sys_scope_script_access action="INSERT_OR_UPDATE">
+        <example_stack_trace>Default-thread-11
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:231)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:200)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:80)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:63)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.system.ASystemInclude.recordCrossScopeAccess(ASystemInclude.java:123)
+	com.glide.script.system.ASystemInclude.include(ASystemInclude.java:106)
+	com.glide.script.AGlideRhinoScopeHandler.isScriptInclude(AGlideRhinoScopeHandler.java:43)
+	com.glide.script.GlideRhinoScopeHandler.found(GlideRhinoScopeHandler.java:24)
+	com.glide.script.ARhinoScope.get(ARhinoScope.java:75)
+	com.glide.script.RhinoScope.get(RhinoScope.java:51)
+	com.glide.script.PackageRhinoGlobalScope.get(PackageRhinoGlobalScope.java:34)
+	org.mozilla.javascript.ScriptableObject.getProperty(ScriptableObject.java:1478)
+	org.mozilla.javascript.ScriptRuntime.getProp(ScriptRuntime.java:724)
+	org.mozilla.javascript.gen.c9689.call(x_0721_locker_depo_sft_task.1991ee310f73020073eeb17ce1050e0a:1)
+	org.mozilla.javascript.gen.c9689.exec(x_0721_locker_depo_sft_task.1991ee310f73020073eeb17ce1050e0a)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:233)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:105)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:72)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:318)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:209)
+	com.glide.script.fencing.GlideScopedEvaluator.jsFunction_evaluateScript(GlideScopedEvaluator.java:117)
+	sun.reflect.GeneratedMethodAccessor2385.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	java.lang.reflect.Method.invoke(Method.java:597)
+	org.mozilla.javascript.FunctionObject.doInvoke(FunctionObject.java:597)
+	org.mozilla.javascript.FunctionObject.call(FunctionObject.java:504)
+	org.mozilla.javascript.ScriptRuntime.call(ScriptRuntime.java:1227)
+	org.mozilla.javascript.gen.c3786.call(sys_script_include.9dba190cd7230100fceaa6859e61035f:538)
+	org.mozilla.javascript.ScriptRuntime.call(ScriptRuntime.java:1227)
+	org.mozilla.javascript.gen.c3784.call(sys_script_include.9dba190cd7230100fceaa6859e61035f:518)
+	org.mozilla.javascript.ScriptRuntime.call(ScriptRuntime.java:1227)
+	org.mozilla.javascript.gen.c3758.call(sys_script_include.9dba190cd7230100fceaa6859e61035f:244)
+	org.mozilla.javascript.ScriptRuntime.call(ScriptRuntime.java:1227)
+	org.mozilla.javascript.gen.c9688.call(sys_ui_action.9591ee310f73020073eeb17ce1050e0b:1)
+	org.mozilla.javascript.gen.c9688.exec(sys_ui_action.9591ee310f73020073eeb17ce1050e0b)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:233)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:105)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:72)
+	com.glide.script.Evaluator.evaluateCondition(Evaluator.java:138)
+	com.glide.script.Evaluator.evaluateCondition(Evaluator.java:129)
+	com.glide.script.ActionScriptProcessor.canExecute(ActionScriptProcessor.java:238)
+	com.glide.script.ActionScriptProcessor.processScript(ActionScriptProcessor.java:74)
+	com.glide.script.Action.process(Action.java:115)
+	com.glide.ui.RedirectTransaction.invokeAction(RedirectTransaction.java:421)
+	com.glide.ui.RedirectTransaction.handleActions(RedirectTransaction.java:388)
+	com.glide.ui.RedirectTransaction.inboundActions(RedirectTransaction.java:224)
+	com.glide.ui.RedirectTransaction.process(RedirectTransaction.java:93)
+	com.glide.ui.GlideServletUITransaction.process(GlideServletUITransaction.java:71)
+	com.glide.processors.AProcessor.runProcessor(AProcessor.java:395)
+	com.glide.processors.AProcessor.processTransaction(AProcessor.java:169)
+	com.glide.processors.ProcessorRegistry.process(ProcessorRegistry.java:165)
+	com.glide.ui.GlideServletTransaction.process(GlideServletTransaction.java:32)
+	com.glide.sys.ServletTransaction.run(ServletTransaction.java:34)
+	java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	java.lang.Thread.run(Thread.java:682)
+</example_stack_trace>
+        <script_name>SMTask</script_name>
+        <source_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</source_scope>
+        <sys_class_name>sys_scope_script_access</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2016-01-27 17:44:20</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>000455180f5d1e4073eeb17ce1050e0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SMTask</sys_name>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_update_name>sys_scope_script_access_000455180f5d1e4073eeb17ce1050e0f</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2016-01-27 17:44:20</sys_updated_on>
+        <target_scope display_value="Global">global</target_scope>
+    </sys_scope_script_access>
+</record_update>

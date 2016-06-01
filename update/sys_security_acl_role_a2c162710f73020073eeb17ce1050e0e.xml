@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2015-11-19 01:40:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a2c162710f73020073eeb17ce1050e0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sm_m2m_somodel_stmodel.x_0721_locker_depo_read</sys_name>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_security_acl display_value="sm_m2m_somodel_stmodel">77fa3303df2321006d907a0d3df2630f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a2c162710f73020073eeb17ce1050e0e</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2015-11-19 01:40:55</sys_updated_on>
+        <sys_user_role display_value="x_0721_locker_depo_read" name="x_0721_locker_depo_read">9491ae310f73020073eeb17ce1050ee2</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>x_0721_locker_depo_read</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2015-11-19 01:41:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1d162710f73020073eeb17ce1050e7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Locker Depot</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_update_name>sys_app_application_d1d162710f73020073eeb17ce1050e7f</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2015-11-19 01:41:07</sys_updated_on>
+        <title>Locker Depot</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

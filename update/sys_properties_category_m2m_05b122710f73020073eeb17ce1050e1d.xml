@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Locker Depot">4db122710f73020073eeb17ce1050e1c</category>
+        <order>1</order>
+        <property display_value="x_0721_locker_depo.default.start.time" name="x_0721_locker_depo.default.start.time">38a1ee310f73020073eeb17ce1050ea2</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2015-11-19 01:40:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>05b122710f73020073eeb17ce1050e1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0721_locker_depo.default.start.time.Locker Depot</sys_name>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_05b122710f73020073eeb17ce1050e1d</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2015-11-19 01:40:33</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

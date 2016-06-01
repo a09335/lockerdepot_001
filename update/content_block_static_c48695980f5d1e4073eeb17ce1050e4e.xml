@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_static">
+    <content_block_static action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Some new features in Helsinki and Geneva...</name>
+        <static_content><![CDATA[<ul><li>UI16
+<ul><li>Activate the plugin</li><li>Switching between UI16 and UI15</li><li>New menu navigator</li></ul>
+</li></ul>
+<ul><li> Studio
+<ul><li>Downloading applications from <a href="https://store.servicenow.com" rel="nofollow">https://store.servicenow.com</a></li><li>Developing custom applications
+<ul><li>Different options and templates</li><li>State flow engine</li></ul>
+</li></ul>
+</li></ul>
+<ul><li>System Export Sets</li></ul>]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2016-01-27 17:56:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c48695980f5d1e4073eeb17ce1050e4e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Some new features in Helsinki and Geneva...</sys_name>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_update_name>content_block_static_c48695980f5d1e4073eeb17ce1050e4e</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2016-05-23 15:24:34</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="delete_multiple" query="documentkey=c48695980f5d1e4073eeb17ce1050e4e"/>
+</record_update>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="sm_order" label="Locker Depot Request" max_length="40" name="x_0721_locker_depot_request" sizeclass="1" type="collection"/>
+</database>

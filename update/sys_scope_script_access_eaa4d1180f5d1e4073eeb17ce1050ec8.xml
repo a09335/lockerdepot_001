@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_script_access">
+    <sys_scope_script_access action="INSERT_OR_UPDATE">
+        <example_stack_trace>Default-thread-16
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:231)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:200)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:80)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:63)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.system.ASystemInclude.recordCrossScopeAccess(ASystemInclude.java:123)
+	com.glide.script.system.ASystemInclude.include(ASystemInclude.java:106)
+	com.glide.script.AGlideRhinoScopeHandler.isScriptInclude(AGlideRhinoScopeHandler.java:43)
+	com.glide.script.GlideRhinoScopeHandler.found(GlideRhinoScopeHandler.java:24)
+	com.glide.script.ARhinoScope.get(ARhinoScope.java:75)
+	com.glide.script.RhinoScope.get(RhinoScope.java:51)
+	org.mozilla.javascript.ScriptableObject.getProperty(ScriptableObject.java:1478)
+	org.mozilla.javascript.Context.newObject(Context.java:1104)
+	com.glide.script.RhinoObject.&lt;init&gt;(RhinoObject.java:71)
+	com.glide.script.GlideRhinoObject.&lt;init&gt;(GlideRhinoObject.java:45)
+	com.glide.processors.xmlhttp.AJAXEvaluator.evalScriptInclude(AJAXEvaluator.java:144)
+	com.glide.processors.xmlhttp.AJAXEvaluator.evaluateAjax(AJAXEvaluator.java:84)
+	com.glide.processors.xmlhttp.AJAXEvaluator.process(AJAXEvaluator.java:62)
+	com.glide.processors.XMLHttpProcessor.processJavaAJAX(XMLHttpProcessor.java:143)
+	com.glide.processors.XMLHttpProcessor.process(XMLHttpProcessor.java:100)
+	com.glide.processors.AProcessor.runProcessor(AProcessor.java:395)
+	com.glide.processors.AProcessor.processTransaction(AProcessor.java:169)
+	com.glide.processors.ProcessorRegistry.process(ProcessorRegistry.java:165)
+	com.glide.ui.GlideServletTransaction.process(GlideServletTransaction.java:32)
+	com.glide.sys.ServletTransaction.run(ServletTransaction.java:34)
+	java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	java.lang.Thread.run(Thread.java:682)
+</example_stack_trace>
+        <script_name>SMTaskDependency</script_name>
+        <source_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</source_scope>
+        <sys_class_name>sys_scope_script_access</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2016-01-27 17:47:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>eaa4d1180f5d1e4073eeb17ce1050ec8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SMTaskDependency</sys_name>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_update_name>sys_scope_script_access_eaa4d1180f5d1e4073eeb17ce1050ec8</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2016-01-27 17:47:15</sys_updated_on>
+        <target_scope display_value="Global">global</target_scope>
+    </sys_scope_script_access>
+</record_update>

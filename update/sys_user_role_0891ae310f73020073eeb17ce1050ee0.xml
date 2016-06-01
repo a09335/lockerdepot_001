@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Locker Depot Agent role can accept or reject a task.  It is the one who performs the work on the site.</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_0721_locker_depo_agent</name>
+        <suffix/>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2015-11-19 01:39:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0891ae310f73020073eeb17ce1050ee0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0721_locker_depo_agent</sys_name>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_update_name>sys_user_role_0891ae310f73020073eeb17ce1050ee0</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2015-11-19 01:39:56</sys_updated_on>
+    </sys_user_role>
+</record_update>

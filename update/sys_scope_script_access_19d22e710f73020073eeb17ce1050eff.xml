@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_script_access">
+    <sys_scope_script_access action="INSERT_OR_UPDATE">
+        <example_stack_trace>Default-thread-8
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:231)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:200)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:80)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:63)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.system.ASystemInclude.recordCrossScopeAccess(ASystemInclude.java:123)
+	com.glide.script.system.ASystemInclude.include(ASystemInclude.java:106)
+	com.glide.script.AGlideRhinoScopeHandler.isScriptInclude(AGlideRhinoScopeHandler.java:43)
+	com.glide.script.GlideRhinoScopeHandler.found(GlideRhinoScopeHandler.java:24)
+	com.glide.script.ARhinoScope.get(ARhinoScope.java:75)
+	com.glide.script.RhinoScope.get(RhinoScope.java:51)
+	com.glide.script.PackageRhinoGlobalScope.get(PackageRhinoGlobalScope.java:34)
+	org.mozilla.javascript.ScriptableObject.getProperty(ScriptableObject.java:1478)
+	org.mozilla.javascript.ScriptRuntime.getProp(ScriptRuntime.java:724)
+	org.mozilla.javascript.gen.c4794.call(sys_security_acl.02c122710f73020073eeb17ce1050eeb:3)
+	org.mozilla.javascript.gen.c4794.exec(sys_security_acl.02c122710f73020073eeb17ce1050eeb)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:233)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:105)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:72)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:318)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScriptAsBoolean(GlideScopedEvaluator.java:365)
+	com.glide.sys.security.AccessTerm.checkScript0(AccessTerm.java:318)
+	com.glide.sys.security.AccessTerm.checkScript(AccessTerm.java:288)
+	com.glide.sys.security.AccessTerm.evaluate0(AccessTerm.java:231)
+	com.glide.sys.security.AccessTerm.evaluate(AccessTerm.java:173)
+	com.glide.sys.security.AccessRule.processOr(AccessRule.java:189)
+	com.glide.sys.security.AccessRule.evaluate(AccessRule.java:141)
+	com.glide.sys.security.AccessRule.processSequential(AccessRule.java:200)
+	com.glide.sys.security.AccessRule.evaluate(AccessRule.java:144)
+	com.glide.sys.security.AccessRule.processAnd(AccessRule.java:180)
+	com.glide.sys.security.AccessRule.evaluate(AccessRule.java:138)
+	com.glide.sys.security.ContextualSecurityManager.evalRule(ContextualSecurityManager.java:664)
+	com.glide.sys.security.ContextualSecurityManager.eval(ContextualSecurityManager.java:623)
+	com.glide.sys.security.ContextualSecurityManager.hasRightsTo(ContextualSecurityManager.java:545)
+	com.glide.sys.security.ContextualSecurityManager.hasRightsTo(ContextualSecurityManager.java:513)
+	com.glide.sys.security.ContextualSecurityManager.hasRightsTo(ContextualSecurityManager.java:507)
+	sun.reflect.GeneratedMethodAccessor154.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	java.lang.reflect.Method.invoke(Method.java:597)
+	org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:256)
+	org.mozilla.javascript.ScriptRuntime.call(ScriptRuntime.java:1227)
+	org.mozilla.javascript.gen.c685.call(sys_security_acl.b5f451a90a0a0aa70067f079e7e9a9dc:3)
+	org.mozilla.javascript.gen.c685.exec(sys_security_acl.b5f451a90a0a0aa70067f079e7e9a9dc)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:233)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:105)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:72)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:318)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScriptAsBoolean(GlideScopedEvaluator.java:365)
+	com.glide.sys.security.AccessTerm.checkScript0(AccessTerm.java:318)
+	com.glide.sys.security.AccessTerm.checkScript(AccessTerm.java:288)
+	com.glide.sys.security.AccessTerm.evaluate0(AccessTerm.java:231)
+	com.glide.sys.security.AccessTerm.evaluate(AccessTerm.java:173)
+	com.glide.sys.security.AccessRule.processOr(AccessRule.java:189)
+	com.glide.sys.security.AccessRule.evaluate(AccessRule.java:141)
+	com.glide.sys.security.AccessRule.processSequential(AccessRule.java:200)
+	com.glide.sys.security.AccessRule.evaluate(AccessRule.java:144)
+	com.glide.sys.security.AccessRule.processAnd(AccessRule.java:180)
+	com.glide.sys.security.AccessRule.evaluate(AccessRule.java:138)
+	com.glide.sys.security.ContextualSecurityManager.evalRule(ContextualSecurityManager.java:664)
+	com.glide.sys.security.ContextualSecurityManager.eval(ContextualSecurityManager.java:623)
+	com.glide.sys.security.ContextualSecurityManager.hasRightsTo(ContextualSecurityManager.java:545)
+	com.glide.sys.security.ContextualSecurityManager.hasRightsTo(ContextualSecurityManager.java:513)
+	com.glide.processors.xmlhttp.XMLSysMetaSerializer.addAtributesToItem(XMLSysMetaSerializer.java:430)
+	com.glide.processors.xmlhttp.XMLSysMetaSerializer.getMetaData(XMLSysMetaSerializer.java:330)
+	com.glide.processors.xmlhttp.XMLSysMetaSerializer.&lt;init&gt;(XMLSysMetaSerializer.java:225)
+	com.glide.processors.xmlhttp.SysMetaColumns.get(SysMetaColumns.java:18)
+	com.glide.processors.xmlhttp.SysMeta.process(SysMeta.java:40)
+	com.glide.processors.XMLHttpProcessor.processJavaAJAX(XMLHttpProcessor.java:143)
+	com.glide.processors.XMLHttpProcessor.process(XMLHttpProcessor.java:100)
+	com.glide.processors.AProcessor.runProcessor(AProcessor.java:395)
+	com.glide.processors.AProcessor.processTransaction(AProcessor.java:169)
+	com.glide.processors.ProcessorRegistry.process(ProcessorRegistry.java:165)
+	com.glide.ui.GlideServletTransaction.process(GlideServletTransaction.java:32)
+	com.glide.sys.ServletTransaction.run(ServletTransaction.java:34)
+	java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	java.lang.Thread.run(Thread.java:682)
+</example_stack_trace>
+        <script_name>SMConstants</script_name>
+        <source_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</source_scope>
+        <sys_class_name>sys_scope_script_access</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2015-11-19 01:45:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>19d22e710f73020073eeb17ce1050eff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SMConstants</sys_name>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_update_name>sys_scope_script_access_19d22e710f73020073eeb17ce1050eff</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2015-11-19 01:45:28</sys_updated_on>
+        <target_scope display_value="Global">global</target_scope>
+    </sys_scope_script_access>
+</record_update>

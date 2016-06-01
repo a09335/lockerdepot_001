@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <application display_value="Locker Depot">e9d162710f73020073eeb17ce1050e7f</application>
+        <filter/>
+        <name>My Dispatch Map</name>
+        <order>182</order>
+        <path>sm_dispatch/locker_depot</path>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_0721_locker_depo_dispatcher</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2015-11-19 01:41:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>65d162710f73020073eeb17ce1050e83</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Dispatch Map</sys_name>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_update_name>sys_ui_module_65d162710f73020073eeb17ce1050e83</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2015-11-19 01:41:09</sys_updated_on>
+        <table/>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

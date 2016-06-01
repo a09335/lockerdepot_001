@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Locker Depot Dispatch</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>a09335</sys_created_by>
+        <sys_created_on>2015-11-19 01:40:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5db122710f73020073eeb17ce1050e1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Locker Depot Dispatch</sys_name>
+        <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+        <sys_update_name>sys_properties_category_5db122710f73020073eeb17ce1050e1d</sys_update_name>
+        <sys_updated_by>a09335</sys_updated_by>
+        <sys_updated_on>2015-11-19 01:40:33</sys_updated_on>
+        <title><![CDATA[<p><b>Dispatch Properties for Locker Depot</b></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=5db122710f73020073eeb17ce1050e1d"/>
+</record_update>

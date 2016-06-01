@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="37c162710f73020073eeb17ce1050e50" sys_domain="global" table="x_0721_locker_depot_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>a09335</sys_created_by>
+            <sys_created_on>2015-11-19 01:41:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7c162710f73020073eeb17ce1050e50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0721_locker_depot_task" name="x_0721_locker_depot_task" sys_domain="global" view="Default view">37c162710f73020073eeb17ce1050e50</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_0721_locker_depot_task" sys_domain="global" view="Default view">bbc162710f73020073eeb17ce1050e4e</sys_ui_section>
+            <sys_updated_by>a09335</sys_updated_by>
+            <sys_updated_on>2015-11-19 01:41:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>a09335</sys_created_by>
+            <sys_created_on>2015-11-19 01:41:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88d162710f73020073eeb17ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0721_locker_depot_task" name="x_0721_locker_depot_task" sys_domain="global" view="Default view">37c162710f73020073eeb17ce1050e50</sys_ui_form>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_0721_locker_depot_task" sys_domain="global" view="Default view">7bc162710f73020073eeb17ce1050e50</sys_ui_section>
+            <sys_updated_by>a09335</sys_updated_by>
+            <sys_updated_on>2015-11-19 01:41:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>a09335</sys_created_by>
+            <sys_created_on>2015-11-19 01:41:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88d162710f73020073eeb17ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0721_locker_depot_task" name="x_0721_locker_depot_task" sys_domain="global" view="Default view">37c162710f73020073eeb17ce1050e50</sys_ui_form>
+            <sys_ui_section caption="Actual" display_value="Actual" name="x_0721_locker_depot_task" sys_domain="global" view="Default view">ccd162710f73020073eeb17ce1050e51</sys_ui_section>
+            <sys_updated_by>a09335</sys_updated_by>
+            <sys_updated_on>2015-11-19 01:41:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_0721_locker_depot_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>a09335</sys_created_by>
+            <sys_created_on>2015-11-19 01:41:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37c162710f73020073eeb17ce1050e50</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_0721_locker_depot_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Locker Depot" source="x_0721_locker_depo">cf812e310f73020073eeb17ce1050e9b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Locker Depot">cf812e310f73020073eeb17ce1050e9b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_37c162710f73020073eeb17ce1050e50</sys_update_name>
+            <sys_updated_by>a09335</sys_updated_by>
+            <sys_updated_on>2015-11-19 01:41:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
